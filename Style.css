@@ -20,11 +20,9 @@ body{
     display: flex;
     margin:50px ;
 }
-p{
-    color: #0E0E0E;
-}
 .banner p{
     font-size: 24px;
+    color:rgba(14, 14, 14, 0.50);
 }
 .text_Contain{
     margin-top: 150px;
@@ -34,8 +32,7 @@ p{
     font-size: 48px;
     font-weight: bold;
     margin-top:10px;
-    color: #0E0E0E;
-    
+    color: #0E0E0E;    
 }
 .banner .img{
     width: 400px;
@@ -61,6 +58,7 @@ p{
 }
 .body_section p{
     font-size: 16px;
+    color:rgba(14, 14, 14, 0.70)
 }
 .body_section h2{
     color: #0E0E0E;
@@ -117,3 +115,26 @@ p{
     background-color: #eba400 ;
     transition: 0.6s;
 }
+/* News letter section */
+.Newsletter{
+    background-color: #FFFFFF;
+    height: 256px;
+    margin-top: 32px;
+    border-radius: 10px;
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.news{
+    margin: 24px;
+}
+.Description{
+    display: inline-block;
+    margin-top: 45px;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+.news h4{
+    margin-top: 17px;
+}
+
