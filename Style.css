@@ -13,7 +13,7 @@ p{
 }
 /* Navbar section */
 .navbar{
-    margin:0px 160px ;
+    margin:26px 160px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,6 +77,13 @@ p{
     background-color: #034f3a;
     transition: 0.5s;
 }
+/* Pillars of Bangladesh section  */
+.Pillars_of_Bangladesh{
+   margin-top: 280px;
+}
+.Pillars_of_Bangladesh .card{
+    background-color: #FFFFFF;
+}
 /* The Vision of Future section */
 .section{
     margin: 80px 160px;
@@ -89,6 +96,9 @@ p{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
+}
+.Vision_of_Future {
+    margin-top: 75px;
 }
 .item{
     display: flex;
