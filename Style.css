@@ -125,21 +125,43 @@ body{
     background-repeat: no-repeat;
     background-position: 20px 20px;
 }
-.news{
+/* .news{
     margin: 24px;
-}
+} */
 .Description{
     display: inline-block;
-    margin-top: 45px;
+    margin: 45px 24px;
     line-height: 25px;
     word-spacing: 5px;
 }
 .news h4{
     margin-top: 17px;
 }
-
 /* Recent_News section */
 .Recent_News {
     margin-top:80px;
 }
-
+.Container{
+    background-color: #FFFFFF;
+    height: 385px;
+    margin-top: 32px;
+    border-radius: 10px;
+   
+}
+.containers{
+    display: flex;
+    padding: 38px;
+    gap: 32px;
+}
+.NewsImage img{
+    border-radius: 20px;
+}
+.news_title{
+    margin-top: 30px;
+}
+.news_title img{
+    margin-top: 10px;
+}
+.news_title p{
+    margin-top: 15px;
+}
