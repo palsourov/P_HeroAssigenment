@@ -165,3 +165,40 @@ body{
 .news_title p{
     margin-top: 15px;
 }
+
+/* Donate scetion */
+.donateDescription{
+    margin: 88px 88px 0px 88px;
+    text-align: center;
+}
+.donateDescription P{
+    margin-top: 24px;
+    word-spacing: 2px;
+}
+.Donate_amount{
+    display: flex;
+}
+.Donate_amount input{
+  padding: 21px;
+  width: 171px;
+  margin: 45px;
+  font-size: 40px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}              
+.Donate_amount input:hover{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+.inputAmount input{
+  margin: 34px 124px 49px 124px;
+  width: 76%;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 9px;
+  border: none;
+}
