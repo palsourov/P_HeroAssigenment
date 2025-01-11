@@ -53,7 +53,7 @@ body{
     transition: 0.5s;
 }
 /* The Vision of Future section */
-.body_section{
+.section{
     margin: 80px 160px;
 }
 .body_section p{
@@ -202,3 +202,46 @@ body{
   border-radius: 9px;
   border: none;
 }
+
+/* footer section */
+.Subscribe{
+    background-color:rgba(198, 228, 214, 1.00);;
+    height: 395px;
+    border-radius: 20px;
+}
+.Subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    text-align: center;
+    width: 750px;
+}
+.description p{
+    margin-top: 15px;
+}
+.description input{
+    margin-top: 30px;
+    width: 55%;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+.description button{
+    width: 130px;
+    padding: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color:#006A50 ;
+    color: #FFFFFF;
+}
+.description span button:hover{
+    background-color: #0e1f17;
+    transition: 0.5s;
+}
+
