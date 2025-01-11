@@ -8,6 +8,9 @@ body{
     font-family:Fira Sans;
     background-color: #F5F5F5;
 }
+p{
+    color:rgba(14, 14, 14, 0.60); ;
+}
 /* Navbar section */
 .navbar{
     margin:0px 160px ;
@@ -66,8 +69,8 @@ body{
     background-color: #006A50;
     border: none;
     border-radius: 5px;
-    padding: 14px;
-    font-weight: 700;
+    padding: 15px;
+    font-weight: 500;
     margin-top: 30px;
 }
  button:hover{
@@ -80,7 +83,7 @@ body{
 }
 .body_section p{
     font-size: 16px;
-    color:rgba(14, 14, 14, 0.70)
+    color:rgba(14, 14, 14, 0.60)
 }
 .body_section h2{
     color: #0E0E0E;
@@ -216,7 +219,7 @@ body{
     transition: 0.8s;
 }
 .inputAmount input{
-  margin: 34px 124px 49px 124px;
+  margin: 3px 124px 8px 124px;
   width: 76%;
   text-align: center;
   padding: 20px;
