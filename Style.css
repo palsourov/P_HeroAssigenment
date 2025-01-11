@@ -18,7 +18,6 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-
 .singIn button{
   background: none;
   border: 2px solid #006A50;
@@ -33,7 +32,6 @@ p{
     color: #FFFFFF;
     transition: 0.3s;
 }
-
 /* banner section */
 .banner{
     background-color:#C6E4D6;
